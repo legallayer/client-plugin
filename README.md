@@ -25,8 +25,12 @@ claude plugin install legallayer-client@legallayer-client
 
 - **Claude on the web or desktop**: add the connector `https://api.legalbooks.ai/mcp` under
   Settings > Connectors, then add the folder `skills/legallayer-client` as a skill.
-- **OpenAI Codex**: `.codex-plugin/plugin.json` names the same `skills/` folder. Not yet tested
-  there; add the connector by hand.
+- **Claude Cowork**: under **Customize > Plugins** choose **Add marketplace** and enter
+  `legallayer/client-plugin`; under **Discover** select **legallayer-client** and **Install**; then
+  connect LegalLayer on the plugin's **Connectors** tab. (Claude docs, "Install plugins", read 2026-11-23.)
+- **OpenAI Codex**: `codex plugin marketplace add legallayer/client-plugin`, then in `codex` type
+  `/plugins` and install **legallayer-client**. It brings the connector (`.mcp.json`); sign in when
+  Codex asks. (OpenAI docs, "Package your plugin" and "Plugins", read 2026-11-23; not yet run on Codex.)
 
 ## About this repository
 

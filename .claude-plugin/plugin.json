@@ -1,6 +1,6 @@
 {
   "name": "legallayer-client",
-  "description": "Work with your legal team from Claude: check on your Matters and Projects, ask for legal work, read and send messages, find and upload documents.",
+  "description": "Work with your legal team: check on your Matters and Projects, ask for legal work, read and send messages, find and upload documents.",
   "author": {
     "name": "LegalLayer"
   },
@@ -14,11 +14,8 @@
   "skills": [
     "./skills"
   ],
-  "mcpServers": {
-    "legallayer": {
-      "type": "http",
-      "url": "https://api.legalbooks.ai/mcp"
-    }
-  },
-  "version": "0.8.7"
+  "mcpServers": "./.mcp.json",
+  "version": "0.8.8",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://legallayer.ai/legal/privacy"
 }

@@ -1,0 +1,20 @@
+{
+  "name": "legallayer-client",
+  "interface": {
+    "displayName": "LegalLayer"
+  },
+  "plugins": [
+    {
+      "name": "legallayer-client",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

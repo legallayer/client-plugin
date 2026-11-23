@@ -1,6 +1,41 @@
 {
   "name": "legallayer-client",
-  "version": "0.8.7",
-  "description": "Work with your legal team from Claude: check on your Matters and Projects, ask for legal work, read and send messages, find and upload documents.",
-  "skills": "./skills/"
+  "version": "0.8.8",
+  "description": "Work with your legal team: check on your Matters and Projects, ask for legal work, read and send messages, find and upload documents.",
+  "author": {
+    "name": "LegalLayer"
+  },
+  "homepage": "https://github.com/legallayer/client-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "legallayer",
+    "legal",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "LegalLayer",
+    "shortDescription": "Work with your legal team",
+    "longDescription": "Check on your company's Matters and Projects, ask your legal team for work, read and answer their messages, and find and upload documents. You need a LegalLayer account; Codex acts as you, with your access and nothing more. Nothing here is legal advice.",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "What is our legal team waiting on from us?",
+      "Where does our deal stand?",
+      "Ask legal for an NDA"
+    ],
+    "developerName": "LegalLayer",
+    "category": "Productivity",
+    "websiteURL": "https://legallayer.ai",
+    "supportURL": "https://legallayer.ai/contact",
+    "privacyPolicyURL": "https://legallayer.ai/legal/privacy",
+    "termsOfServiceURL": "https://legallayer.ai/legal/terms",
+    "brandColor": "#6B2233",
+    "brandColorDark": "#C58592",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
+  }
 }

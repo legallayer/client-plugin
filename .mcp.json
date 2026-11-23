@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "legallayer": {
+      "type": "http",
+      "url": "https://api.legalbooks.ai/mcp"
+    }
+  }
+}
