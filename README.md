@@ -34,5 +34,5 @@ claude plugin install legallayer-client@legallayer-client
 
 ## About this repository
 
-It is published from LegalLayer's own source at the commit `SOURCE` names; changes are made
+It is published from LegalLayer's own source at the commit `SOURCE.txt` names; changes are made
 there, not here. Licensed under Apache-2.0 (`LICENSE`).
