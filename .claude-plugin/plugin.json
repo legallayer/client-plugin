@@ -15,7 +15,7 @@
     "./skills"
   ],
   "mcpServers": "./.mcp.json",
-  "version": "0.8.9",
+  "version": "0.9.0",
   "icon": "./assets/icon.png",
   "privacyPolicyUrl": "https://legallayer.ai/legal/privacy"
 }
