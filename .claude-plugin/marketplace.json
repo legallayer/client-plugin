@@ -10,7 +10,7 @@
       "source": "./",
       "strict": true,
       "description": "Work with your legal team: check on your Matters and Projects, ask for legal work, read and send messages, find and upload documents.",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "category": "productivity"
     }
   ]

@@ -17,10 +17,7 @@ The connector is LegalLayer's MCP server, `https://api.legalbooks.ai/mcp` (strea
 <contents>
 
 - `SKILL.md` — the entry: when the skill applies, who you act for, the start, and the routes
-- `client/meta.md` — this index: `<connector>`
-- `client/specs/rules.md` — `<your_company>`: which organization each call names; `<rules>`: the rules you keep
-- `client/specs/work.md` — `<words>` (Terms among them), `<statuses>`, `<following>`, `<asking_for_work>`, `<messages>`
-- `client/specs/files.md` — `<finding_and_reading>`, `<uploading>`
-- `client/specs/records.md` — reference: `<records>`, `<every_tool>`
+- `meta.md` — this index: `<connector>`
+- `specs/` — the detail, one file per area of work, and one of reference; see `specs/meta.md`
 
 </contents>
