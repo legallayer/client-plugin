@@ -4,7 +4,7 @@
   "author": {
     "name": "LegalLayer"
   },
-  "homepage": "https://github.com/legallayer/client-plugin",
+  "homepage": "https://legallayer.ai",
   "license": "Apache-2.0",
   "keywords": [
     "legallayer",
@@ -15,7 +15,12 @@
     "./skills"
   ],
   "mcpServers": "./.mcp.json",
-  "version": "0.9.6",
+  "version": "0.9.7",
+  "displayName": "LegalLayer",
   "icon": "./assets/icon.png",
-  "privacyPolicyUrl": "https://legallayer.ai/legal/privacy"
+  "repository": "https://github.com/legallayer/client-plugin",
+  "documentationUrl": "https://github.com/legallayer/client-plugin#readme",
+  "supportUrl": "https://legallayer.ai/contact",
+  "privacyPolicyUrl": "https://legallayer.ai/legal/privacy",
+  "termsOfServiceUrl": "https://legallayer.ai/legal/terms"
 }

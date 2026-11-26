@@ -1,11 +1,11 @@
 {
   "name": "legallayer-client",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "Work with your legal team: check on your Matters and Projects, ask for legal work, read and send messages, find and upload documents.",
   "author": {
     "name": "LegalLayer"
   },
-  "homepage": "https://github.com/legallayer/client-plugin",
+  "homepage": "https://legallayer.ai",
   "license": "Apache-2.0",
   "keywords": [
     "legallayer",
