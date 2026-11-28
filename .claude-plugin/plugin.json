@@ -15,7 +15,7 @@
     "./skills"
   ],
   "mcpServers": "./.mcp.json",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "displayName": "LegalLayer",
   "icon": "./assets/icon.png",
   "repository": "https://github.com/legallayer/client-plugin",
